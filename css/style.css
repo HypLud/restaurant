@@ -159,6 +159,7 @@ nav ul li span{
     transition: 1s;
 }
 nav ul li span:hover{
+    color: transparent;
     transition: 1s;
     background-color: rgba(0,0,0,0);
 }
