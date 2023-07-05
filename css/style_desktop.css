@@ -214,61 +214,85 @@ section div a{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
-div a:hover{
+div a:hover {
     background-color: #FFC700;
     color: #000;
     transition: 1s;
+    display: block;
 }
 /* Fin section */
+
+/* Début localisation */
+#nous_retrouver{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(0,0,0);
+    border: 1px;
+}
+#localisation{
+    width: 90%;
+    height: 400px;
+    min-height: 300px;
+    max-height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+/* Fin localisation */
+
 
 
 /* Début footer */
 footer{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-image: url(../images/fond-footer.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-footer div{
+footer article{
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: auto;
 }
 footer form{
-    width: 392px;
-    margin-top: 50px;
-}
-form fieldset{
-    border: none;
-}
-form legend{
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    color: #fff;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
 }
 form label{
     opacity: 0;
 }
 form input{
     width: 100%;
+    box-sizing: border-box;
     background-color: rgba(0,0,0,0.5);
     color: #fff;
     border: none;
     outline: none;
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
+    transition: 1s;
+}
+form input:hover{
+    color: #000;
+    background-color: #FFC700;
+    transition: 1s;
 }
 form input:focus{
-    color: #FFC700;
+    background-color: rgba(0,0,0,0.5);
+    color: orangered;
 } 
 form input[type="submit"]{
     width: 107.5%;
@@ -277,9 +301,36 @@ form input[type="submit"]{
     transition: 1s;
 }
 form input[type="submit"]:hover{
-    color: #FFC700;
+    color: #000;
     transition: 1s;
 }
+footer h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(0,0,0);
+    border: 1px;
+}
+form #reservation{
+    text-align: center;
+}
+form #reservation img{
+    width: 90px;
+    cursor: pointer;
+    border: solid 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+    transition: 1s;
+    opacity: 0.5;
+}
+form #reservation img:hover{
+    border: solid 10px rgba(0,0,0,0.5);;
+    width: 120px;
+    border-radius: 50%;
+    opacity: 1;
+}
+/* Fin du footer*/
 
 
 
