@@ -37,6 +37,15 @@ ________________*/
         font-weight: bold;
     }
 }
-
+@media screen and (max-width: 760px) {
+    form #reservation img{
+        width: 120px;
+        transition: 1s;
+        border-radius: 50%;
+        border: solid 10px rgba(0,0,0,0.5);
+        box-shadow: 0 10px 10px rgba(0,0,0,1);
+        opacity: 1;
+    }
+}
 
 
