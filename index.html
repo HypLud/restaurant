@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/02b1d6d912.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style_desktop.css">
+    <link rel="stylesheet" href="css/style_mobile.css">
+    <title>Miam miam</title>
+</head>
+<body>
+    <!-- Début du conteneur -->
+    <div id="conteneur">
+
+        <header>
+            <div class="barre_noir_transparent">
+                <figure>
+                    <a href="index.html">
+                        <img src="images/chef_cuisinier_min.jpg" alt="Chef cuisinier">
+                        <img src="images/chef_cuisinier_max.jpg" class="cacher" alt="Chef cuisinier">
+                    </a>
+                </figure>
+                <h1>Miam miam le restaurant pour les bons gourmands</h1>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="les-entrees.html"><span>Les entrées</span><img src="images/entree.jpg" alt="Les entrées"></a></li>
+                <li><a href="les-plats.html"><span>Les plats</span><img src="images/plat.jpg" alt="Les plats"></a></li>
+                <li><a href="les-desserts.html"><span>Les desserts</span><img src="images/dessert.jpg" alt="Les desserts"></a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <!-- class="box" sera la boîte qui contient le menu -->
+            <div class="box">
+                <img src="images/entree1.jpg" alt="Entree 1">
+                <h2>Entrée 1</h2>
+                <div class="prix">18€</div>
+                <div><a href="#">COMMANDER</a></div>
+            </div>
+
+            <div class="box">
+                <img src="images/plat1.jpg" alt="Plat 1">
+                <h2>Plat 1</h2>
+                <div class="prix">35€</div>
+                <div><a href="#">COMMANDER</a></div>
+            </div>
+
+            <div class="box">
+                <img src="images/dessert1.jpg" alt="Déssert 1">
+                <h2>Dessert 1</h2>
+                <div class="prix">12€</div>
+                <div><a href="#">COMMANDER</a></div>
+            </div>
+
+            <div class="box">
+                <img src="images/entree2.jpg" alt="Entree 2">
+                <h2>Entrée 2</h2>
+                <div class="prix">14€</div>
+                <div><a href="#">COMMANDER</a></div>
+            </div>
+
+            <div class="box">
+                <img src="images/plat2.jpg" alt="Plat 2">
+                <h2>Plat 2</h2>
+                <div class="prix">28€</div>
+                <div><a href="#">COMMANDER</a></div>
+            </div>
+
+            <div class="box">
+                <img src="images/dessert2.jpg" alt="Déssert 2">
+                <h2>Dessert 2</h2>
+                <div class="prix">14€</div>
+                <div><a href="#">COMMANDER</a></div>
+            </div>
+            
+        </section>
+       
+        <footer>
+
+            <div>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>RESERVER UN COUVERT</legend>
+                        <p>
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom" placeholder="Nom">
+                        </p>
+                        <p>
+                            <label for="prenom">Prénom</label>
+                            <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </p>
+                        <p>
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                        </p>
+                        <p>
+                            <label for="nombre_personne">Nombre de personne</label>
+                            <input type="number" min="1"  max="10" name="nombre_personne" id="nombre_personne" placeholder="Nombre de personne">
+                        </p>
+                        <p>
+                            <input type="submit" value="RESERVER">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+
+        </footer>
+
+    </div>
+    <!-- Fin du conteneur -->
+
+</body>
+</html>
