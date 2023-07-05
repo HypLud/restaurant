@@ -232,16 +232,19 @@ div a:hover {
     border: 1px;
 }
 #localisation{
-    width: 90%;
+    width: 73%;
     height: 400px;
     min-height: 300px;
     max-height: 600px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.8);
     background-color: #fff;
     margin-bottom: 50px;
     border-radius: 10px;
+}
+#localisation iframe{
+    border-radius: 20px;
 }
 /* Fin localisation */
 
